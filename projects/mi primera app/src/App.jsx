@@ -3,6 +3,11 @@ import { TwitterFollowCard } from './TwitterFollowCard.jsx'
 
 export function App (){
     return(
-        <TwitterFollowCard userName={"AlejandroMSK"} name={"Alejandro Contreras"} />
+        <section className='app'>
+            <TwitterFollowCard userName={"AlejandroMSK"} name={"Alejandro Contreras"} />
+            <TwitterFollowCard userName={"Pepsi"} name={"Alejandro "} />
+            <TwitterFollowCard userName={"Cocacola"} name={"Contreras"} />
+
+        </section>
     )
 }
